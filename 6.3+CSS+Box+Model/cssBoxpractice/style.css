@@ -1,0 +1,15 @@
+
+
+.box {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    background-color: whitesmoke;
+    border-radius: 20%;
+    padding: 10px 10px 10px 10px;
+}
+
+.container {
+    text-align: center;
+    margin-top: 200px;
+}
