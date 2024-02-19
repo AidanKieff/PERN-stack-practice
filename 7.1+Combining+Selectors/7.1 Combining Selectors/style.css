@@ -1,0 +1,22 @@
+/* Write your code here: */
+
+h2:first-of-type, h1:first-of-type {
+    color: blueviolet;
+}
+
+.box > p {
+    color: firebrick;
+}
+
+.list li {
+    color: blue;
+    font-weight: bold;
+}
+
+li.done {
+    color: seagreen;
+}
+
+ul p.done {
+    font-size: 0.5rem;
+}
