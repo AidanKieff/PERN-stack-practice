@@ -1,0 +1,15 @@
+
+
+.grid {
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px;
+    grid-template:
+    "header header header"  80px
+    "nav       article    article" 500px
+    / 100px 1fr;
+}
+
+.grid > div {
+    border: 2px solid black;
+}

@@ -7,16 +7,19 @@
     background-color: whitesmoke;
     border-radius: 20%;
     padding: 10px 10px 10px 10px;
+    margin-right: 5%;
 }
 
 .container {
     padding: 100px;
     text-align: center;
     margin-top: 200px;
+    display: flex;
+    justify-content: center;
 }
 
 .minibox img {
     width: 70%;
-    height:150px;
+    height: 9rem;;
     border-radius: 20%;
 }
