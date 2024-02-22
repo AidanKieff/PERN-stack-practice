@@ -1,0 +1,47 @@
+
+body {
+    margin:0px;
+    /* remove */
+    height: 700px;
+}
+
+.toppage {
+    background-color: blueviolet;
+    height: 75px;
+    margin: 0;
+    position: relative;
+}
+
+.navcontainer {
+    overflow:hidden;
+    color:black;
+    padding: 0;
+    display: flex;
+
+}
+
+.navbuttons {
+    list-style: none;
+    align-items: center;
+    display: flex;
+    gap: 10px;
+    margin: 1px;
+    padding-left: 0;
+}
+
+.navbuttons > li {
+    border: 1px solid black;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width:100%;
+}
+
+@media (max-width: 700px ) {
+
+    .navbuttons {
+        flex-direction: column;
+        padding: 0;
+    }
+}
